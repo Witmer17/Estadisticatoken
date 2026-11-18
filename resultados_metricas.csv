@@ -1,0 +1,3 @@
+Modelo,TP,FP,TN,FN,Precision,Recall,F1_Score,FPR,Specificity,Accuracy,Recall_LowAndSlow,Recall_TokenReplay,Recall_Burst
+Detector Probabilístico Estocástico (Markov + Contexto),400,28,3572,0,0.9345794392523364,1.0,0.966183574879227,0.0077777777777777776,0.9922222222222222,0.993,1.0,1.0,1.0
+Regla Estática Tradicional (Rate Limiter: 60 req/min),64,0,3600,336,1.0,0.16,0.2758620689655173,0.0,1.0,0.916,0.0,0.0,0.5161290322580645
